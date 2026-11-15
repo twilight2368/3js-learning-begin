@@ -4,26 +4,64 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Getting Started with Three.js</title>
-    <style>
-        body {
-            margin: 0;
-        }
-    </style>
-    <script type="importmap">
-			{
-				"imports": {
-					"three": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js",
-          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/"
-        }
-			}
-		</script>
+    <title>Three.js Learning</title>
+    <link rel="stylesheet" href="./main.css" />
 </head>
 
 <body>
-    <script type="module" src="index.js"></script>
+    <main class="container">
+        <header>
+            <h1>Three.js Learning</h1>
+            <p>My Three.js experiments and learning projects.</p>
+        </header>
 
+        <nav class="menu">
+            <a href="./basic/index.html" class="menu-item">
+                <span class="number">01</span>
+                <div>
+                    <h2>Basic</h2>
+                    <p>Three.js fundamentals and basic experiments.</p>
+                </div>
+                <span class="arrow">→</span>
+            </a>
 
+            <a href="./three-earth/index.html" class="menu-item">
+                <span class="number">02</span>
+                <div>
+                    <h2>Three Earth</h2>
+                    <p>Earth rendering, textures, shaders and atmosphere.</p>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+
+            <a href="./wormhole/index.html" class="menu-item">
+                <span class="number">03</span>
+                <div>
+                    <h2>Wormhole</h2>
+                    <p>Procedural wormhole effects and space visualization.</p>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+
+            <a href="./rapier-and-three/index.html" class="menu-item">
+                <span class="number">04</span>
+                <div>
+                    <h2>Rapier + Three.js</h2>
+                    <p>Physics simulation and 3D interactions.</p>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+
+            <a href="./transition-effect/index.html" class="menu-item">
+                <span class="number">05</span>
+                <div>
+                    <h2>Transition Effect</h2>
+                    <p>Scene transitions and visual effects.</p>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+        </nav>
+    </main>
 </body>
 
 </html>
